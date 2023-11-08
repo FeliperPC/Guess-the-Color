@@ -1,0 +1,12 @@
+/* single ball style */
+.ball{ 
+    background-color: blue;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+/* group of balls style */
+#ball-list{
+    display: flex;
+    justify-content: space-around;
+}

@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gess the Color Game</title>
+    <title>Guess the Color Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title">Gess the Color</h1>
-    <p id="rgb-color">(168, 34, 1)</p>
+    <main>
+    <div id="menu">
+        <h1 id="title">Guess the Color</h1>
+        <p id="rgb-color">(168, 34, 1)</p>
+        <p id="score">Score : 0</p>
+    </div>
     <div id="ball-list">
         <div class="ball"></div>
         <div class="ball"></div>
@@ -17,6 +21,11 @@
         <div class="ball"></div>
         <div class="ball"></div>
     </div>
+    <div id="second-menu">
+        <h2 id="answer">Pick a Color</h2>
+        <button type="button" id="reset-game">Reset</button>
+    </div>
+    </main>
     <script type="module" src="script.js"></script>
 </body>
 </html>

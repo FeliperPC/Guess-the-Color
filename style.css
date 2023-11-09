@@ -1,12 +1,51 @@
-/* single ball style */
-.ball{ 
-    background-color: blue;
-    border-radius: 100px;
-    width: 200px;
-    height: 200px;
+*{}
+body{
+    background-image: url('./wallpaper.png');
+    overflow: hidden;
 }
-/* group of balls style */
+
+main{
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(175, 175, 175);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ball{ 
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    border: 0.5px solid white;
+}
+
 #ball-list{
+    margin: 0 200px 0 200px;
     display: flex;
     justify-content: space-around;
+}
+
+#menu,#second-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#reset-game{
+    background-color:rgb(175, 175, 175);
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+    color: #FFF;
+    width: 150px;
+    padding: 10px;
+    border-radius: 13px;
+    border-style: groove;
+    margin-top: 5px;
+}
+#title{
+    font-size: 3em;
+}
+#answer{
+    margin-top: 30px;
 }
